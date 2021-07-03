@@ -1,0 +1,57 @@
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb, #ffebeb);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+.emoji-logo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.list-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 80%;
+}
+.question-heading {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 20px;
+  text-align: center;
+}
+.question-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.love-emoji {
+  height: 45px;
+  width: 50px;
+}
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.description {
+  text-align: center;
+  color: #1e293b;
+}
